@@ -10,8 +10,8 @@ template <typename T, typename U>
 T myMax1(T x, U y){
     return (x > y) ? x : y;
 }
-//now it automaticly decides what type to return\
- and can acces two different type variables
+//now it automaticly decides what type to return
+//and can acces two different type variables
 template <typename T, typename U>
 auto myMax(T x, U y){
     return (x > y) ? x : y;

@@ -14,7 +14,7 @@ int odd(int a){
 int main(){
 
     int num = 3;
-    happyBirthday;
+    happyBirthday();
     if (odd(num)){
         cout << "odd\n";
     } else {

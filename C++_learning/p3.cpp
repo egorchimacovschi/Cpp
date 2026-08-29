@@ -5,7 +5,6 @@ using namespace std;
 int main (){    
     float x = 3.14, y = 4.15;
     float z;
-
     z = max(x, y);// without other libraries
     z = min(x, y);// without oher libraries
 

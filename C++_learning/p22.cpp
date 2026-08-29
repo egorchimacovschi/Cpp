@@ -20,7 +20,7 @@ int main (){
     
     Stove stove(0);
     
-    //stove.temperature = 10; it doesnt work\
+    //stove.temperature = 10; it doesnt work
     //because its private
 
     cout << "Stove temperature is : " << stove.GetTemperature() << "\n";
